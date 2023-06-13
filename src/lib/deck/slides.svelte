@@ -4,6 +4,8 @@
 	import Markdown from "reveal.js/plugin/markdown/markdown";
 	import Highlight from "reveal.js/plugin/highlight/highlight";
 
+	import Presentation from "./presentation.svelte";
+
 	import "reveal.js/dist/reveal.css";
 	import "reveal.js/dist/theme/black.css";
 	import "reveal.js/plugin/highlight/monokai.css";
@@ -25,7 +27,6 @@
 
 <div class="reveal">
 	<div class="slides">
-		<section>Slide 1</section>
-		<section>Slide 2</section>
+		<Presentation />
 	</div>
 </div>
