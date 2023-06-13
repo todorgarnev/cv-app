@@ -4,6 +4,14 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  '@types/reveal.js':
+    specifier: ^4.4.2
+    version: 4.4.2
+  reveal.js:
+    specifier: ^4.5.0
+    version: 4.5.0
+
 devDependencies:
   '@sveltejs/adapter-auto':
     specifier: ^2.0.0
@@ -434,6 +442,10 @@ packages:
   /@types/pug@2.0.6:
     resolution: {integrity: sha512-SnHmG9wN1UVmagJOnyo/qkk0Z7gejYxOYYmaAwr5u2yFYfsupN3sg10kyzN8Hep/2zbHxCnsumxOoRIRMBwKCg==}
     dev: true
+
+  /@types/reveal.js@4.4.2:
+    resolution: {integrity: sha512-z+lVPEWGPFrPv3S9Mx2qLKXA4zT+Mo3GxvW68OR7lbUcCmqjn4vjaQJ2qCW+xNkBUgfR8d3fzLWHmu1PIfRiIA==}
+    dev: false
 
   /@types/semver@7.5.0:
     resolution: {integrity: sha512-G8hZ6XJiHnuhQKR7ZmysCeJWE08o8T0AXtk5darsCaTVsYZhhgUrq53jizaR2FvsoeCwJhlmwTjkXBY5Pn/ZHw==}
@@ -1443,6 +1455,11 @@ packages:
     resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
     dev: true
+
+  /reveal.js@4.5.0:
+    resolution: {integrity: sha512-Lx1hUWhJR7Y7ScQNyGt7TFzxeviDAswK2B0cn9RwbPZogTMRgS8+FTr+/12KNHOegjvWKH0H0EGwBARNDPTgWQ==}
+    engines: {node: '>=10.0.0'}
+    dev: false
 
   /rimraf@2.7.1:
     resolution: {integrity: sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==}
