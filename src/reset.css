@@ -11,8 +11,8 @@
 :root {
 	--r-link-color: #fff;
 	--r-link-color-hover: #fff;
-	/* --r-main-font: #{$mainFont}; */
-	/* --r-heading-font: #{$headingFont}; */
+	--r-heading-font: "Indie Flower";
+	--r-main-font: "Indie Flower";
 
 	font-size: 10px;
 }
