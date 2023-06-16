@@ -9,6 +9,11 @@
 }
 
 :root {
+	--r-link-color: #fff;
+	--r-link-color-hover: #fff;
+	/* --r-main-font: #{$mainFont}; */
+	/* --r-heading-font: #{$headingFont}; */
+
 	font-size: 10px;
 }
 
@@ -41,6 +46,14 @@ h4,
 h5,
 h6 {
 	overflow-wrap: break-word;
+}
+
+a {
+	text-decoration: underline !important;
+}
+
+a:hover {
+	text-decoration: none !important;
 }
 
 #root,

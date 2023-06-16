@@ -2,7 +2,7 @@
 	import Slide from "./Slide.svelte";
 </script>
 
-<Slide animate>
+<Slide animate bgColor="#003032">
 	<p>You can 🤙 me ➡️ 0896 117 335</p>
 	<p>or 📬 me ➡️ todorgarnev@gmail.com</p>
 
@@ -22,12 +22,7 @@
 		margin-top: 5rem;
 	}
 
-	a {
-		--r-link-color: #fff;
-		--r-link-color-hover: #fff;
-
-		&:first-child {
-			margin-right: 5rem;
-		}
+	a:first-child {
+		margin-right: 5rem;
 	}
 </style>

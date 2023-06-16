@@ -3,11 +3,11 @@
 </script>
 
 <Slide animate>
-	<Slide>
-		<h3>My 👷 experience</h3>
+	<Slide bgGradient="linear-gradient(to top, #021b1d, #003032)">
+		<h3 class="heading">My 👷 experience</h3>
 	</Slide>
 
-	<Slide animate>
+	<Slide animate bgGradient="linear-gradient(to right, #021b1d, #003032)">
 		<h6 class="title">Full-stack Developer</h6>
 		<p class="company">🏢 Browserbite Ltd</p>
 		<p class="time-period">📆 07/2021 - Present</p>
@@ -61,7 +61,7 @@
 		</ul>
 	</Slide>
 
-	<Slide animate>
+	<Slide animate bgGradient="linear-gradient(to bottom, #021b1d, #003032)">
 		<h6 class="title">Frontend Developer</h6>
 		<p class="company">🏢 Playtech</p>
 		<p class="time-period">📆 07/2020 - 06/2021</p>
@@ -76,7 +76,7 @@
 		</ul>
 	</Slide>
 
-	<Slide animate>
+	<Slide animate bgGradient="linear-gradient(to left, #021b1d, #003032)">
 		<h6 class="title">Software Engineer</h6>
 		<p class="company">🏢 Upnetix</p>
 		<p class="time-period">📆 09/2019 - 06/2020</p>
@@ -94,7 +94,7 @@
 		</ul>
 	</Slide>
 
-	<Slide animate>
+	<Slide animate bgGradient="linear-gradient(to top, #021b1d, #003032)">
 		<h6 class="title">Junior Javascript Developer</h6>
 		<p class="company">🏢 JQWidgets Ltd</p>
 		<p class="time-period">📆 04/2019 - 08/2019</p>
@@ -120,7 +120,7 @@
 		</ul>
 	</Slide>
 
-	<Slide animate>
+	<Slide animate bgGradient="linear-gradient(to right, #021b1d, #003032)">
 		<h6 class="title">Junior Software Developer</h6>
 		<p class="company">🏢 Motion Software</p>
 		<p class="time-period">📆 05/2018 - 03/2019</p>
@@ -161,6 +161,7 @@
 <style>
 	.title {
 		font-size: 5rem;
+		font-weight: 700;
 	}
 
 	.company {
@@ -168,7 +169,7 @@
 	}
 
 	.time-period {
-		font-size: 3rem;
+		font-size: 2.5rem;
 	}
 
 	.projects {
@@ -186,5 +187,6 @@
 
 	i {
 		font-size: 3rem;
+		color: #ffa600;
 	}
 </style>
