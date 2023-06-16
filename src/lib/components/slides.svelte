@@ -20,7 +20,7 @@
 			autoAnimateDuration: 1,
 			hash: true,
 			controls: true,
-			progress: true
+			progress: true,
 		});
 
 		deck.initialize({

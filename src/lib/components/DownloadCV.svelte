@@ -3,16 +3,15 @@
 </script>
 
 <Slide animate>
-	<Slide animate>
-		If you like more <span data-auto-animate-id="word" class="traditional">traditional</span>
+	<Slide animate bg="linear-gradient(to bottom, #283b95, #17b2c3)">
+		If you like more <span class="traditional">traditional</span>
 		CV format you can
 		<a href="https://dox.abv.bg/download?id=df773582d5" target="_blank">⬇️</a>
 		it.
 	</Slide>
 
-	<Slide animate>
-		If you like more <span data-auto-animate-id="word" class="boring">boring</span> CV format
-		you can
+	<Slide animate bg="radial-gradient(#283b95, #17b2c3)">
+		If you like more <span class="boring">boring</span> CV format you can
 		<a href="https://dox.abv.bg/download?id=df773582d5" target="_blank">⬇️</a>
 		it.
 	</Slide>

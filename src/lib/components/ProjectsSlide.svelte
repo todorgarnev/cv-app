@@ -11,6 +11,20 @@
 		<h3>Personal projects</h3>
 
 		<div>
+			<a href="https://curious-narwhal-dcc41a.netlify.app/" target="_blank"
+				>Rock, Paper, Scissors, Lizard, Spock game</a
+			>
+			-
+			<i class="devicon-svelte-plain" title="SvelteKit" />
+		</div>
+
+		<div>
+			<a href="https://target-sum.netlify.app/" target="_blank">Target sum</a>
+			-
+			<i class="devicon-svelte-plain" title="SvelteKit" />
+		</div>
+
+		<div>
 			<a href="https://fervent-feynman-6714ff.netlify.app/" target="_blank">Mini games</a>
 			-
 			<i class="devicon-react-original" title="React" />
@@ -26,18 +40,6 @@
 			<a href="https://eager-kalam-42bf68.netlify.app/" target="_blank">Classic snake game</a>
 			-
 			<i class="devicon-react-original" title="React" />
-		</div>
-
-		<div>
-			<a href="https://target-sum.netlify.app/" target="_blank">Target sum</a>
-			-
-			<i class="devicon-svelte-plain" title="SvelteKit" />
-		</div>
-
-		<div>
-			<a href="https://curious-narwhal-dcc41a.netlify.app/" target="_blank">Rock, Paper, Scissors, Lizard, Spock game</a>
-			-
-			<i class="devicon-svelte-plain" title="SvelteKit" />
 		</div>
 	</Slide>
 </Slide>
