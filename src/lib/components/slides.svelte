@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { onMount } from "svelte";
 	import Reveal from "reveal.js";
-	import Markdown from "reveal.js/plugin/markdown/markdown";
 	import Highlight from "reveal.js/plugin/highlight/highlight";
 
 	import Presentation from "./presentation.svelte";
@@ -20,7 +19,7 @@
 		});
 
 		deck.initialize({
-			plugins: [Markdown, Highlight]
+			plugins: [Highlight]
 		})
 	})
 </script>
