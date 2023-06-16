@@ -2,7 +2,7 @@
 	import Slide from "./Slide.svelte";
 </script>
 
-<Slide animate>
+<Slide>
 	<Slide bgGradient="linear-gradient(to top, #021b1d, #003032)">
 		<h3 class="heading">My 👷 experience</h3>
 	</Slide>
@@ -174,7 +174,6 @@
 
 	.projects {
 		font-size: 3rem;
-		text-decoration: underline;
 	}
 
 	.project {
@@ -188,5 +187,9 @@
 	i {
 		font-size: 3rem;
 		color: #ffa600;
+	}
+
+	a {
+		text-decoration: underline !important;
 	}
 </style>

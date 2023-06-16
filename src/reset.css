@@ -48,10 +48,6 @@ h6 {
 	overflow-wrap: break-word;
 }
 
-a {
-	text-decoration: underline !important;
-}
-
 a:hover {
 	text-decoration: none !important;
 }

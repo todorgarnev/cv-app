@@ -2,12 +2,12 @@
 	import Slide from "./Slide.svelte";
 </script>
 
-<Slide animate>
-	<Slide animate>
+<Slide>
+	<Slide animate bgGradient="linear-gradient(to top, #101010, #585858)">
 		<h3>Personal projects</h3>
 	</Slide>
 
-	<Slide animate>
+	<Slide animate bgGradient="linear-gradient(to bottom, #101010, #585858)">
 		<h3>Personal projects</h3>
 
 		<div>
@@ -43,3 +43,17 @@
 		</div>
 	</Slide>
 </Slide>
+
+<style>
+	div {
+		font-size: 2.5rem;
+	}
+
+	a {
+		text-decoration: underline !important;
+	}
+
+	i {
+		color: dodgerblue;
+	}
+</style>

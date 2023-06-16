@@ -2,7 +2,7 @@
 	import Slide from "./Slide.svelte";
 </script>
 
-<Slide animate bgColor="#003032">
+<Slide animate bgColor="#3a0303">
 	<p>You can 🤙 me ➡️ 0896 117 335</p>
 	<p>or 📬 me ➡️ todorgarnev@gmail.com</p>
 
@@ -22,7 +22,11 @@
 		margin-top: 5rem;
 	}
 
-	a:first-child {
-		margin-right: 5rem;
+	a {
+		text-decoration: none !important;
+
+		&:first-child {
+			margin-right: 5rem;
+		}
 	}
 </style>

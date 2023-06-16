@@ -9,6 +9,7 @@
 	import EducationSlide from "./EducationSlide.svelte";
 	import ProjectsSlide from "./ProjectsSlide.svelte";
 	import DownloadCV from "./DownloadCV.svelte";
+	import FinalSlide from "./FinalSlide.svelte";
 
 	import "reveal.js/dist/reveal.css";
 	import "reveal.js/dist/theme/black.css";
@@ -37,5 +38,6 @@
 		<EducationSlide />
 		<ProjectsSlide />
 		<DownloadCV />
+		<FinalSlide />
 	</div>
 </div>

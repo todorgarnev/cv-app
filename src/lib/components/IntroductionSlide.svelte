@@ -2,7 +2,7 @@
 	import Slide from "./Slide.svelte";
 </script>
 
-<Slide animate>
+<Slide>
 	<Slide animate bgGradient="linear-gradient(to top, #283b95, #17b2c3)">
 		<h1>Hello, folks 👋</h1>
 	</Slide>
