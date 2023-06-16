@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Slides from "$lib/components/slides.svelte";
+	import Slides from "$lib/components/Slides.svelte";
 
 	import "../reset.css";
 </script>

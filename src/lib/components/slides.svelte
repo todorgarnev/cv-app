@@ -3,7 +3,12 @@
 	import Reveal from "reveal.js";
 	import Highlight from "reveal.js/plugin/highlight/highlight";
 
-	import Presentation from "./presentation.svelte";
+	import IntroductionSlide from "./IntroductionSlide.svelte";
+	import ContactSlide from "./ContactSlide.svelte";
+	import ExperienceSlide from "./ExperienceSlide.svelte";
+	import EducationSlide from "./EducationSlide.svelte";
+	import ProjectsSlide from "./ProjectsSlide.svelte";
+	import DownloadCV from "./DownloadCV.svelte";
 
 	import "reveal.js/dist/reveal.css";
 	import "reveal.js/dist/theme/black.css";
@@ -20,12 +25,17 @@
 
 		deck.initialize({
 			plugins: [Highlight]
-		})
-	})
+		});
+	});
 </script>
 
 <div class="reveal">
 	<div class="slides">
-		<Presentation />
+		<IntroductionSlide />
+		<ContactSlide />
+		<ExperienceSlide />
+		<EducationSlide />
+		<ProjectsSlide />
+		<DownloadCV />
 	</div>
 </div>
