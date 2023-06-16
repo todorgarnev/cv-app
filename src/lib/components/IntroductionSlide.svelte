@@ -3,7 +3,7 @@
 </script>
 
 <Slide animate>
-	<Slide animate>
+	<Slide animate bg="linear-gradient(to bottom, #283b95, #17b2c3)">
 		<h1>Hello, folks 👋</h1>
 	</Slide>
 
