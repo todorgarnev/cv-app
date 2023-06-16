@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>CV</title>
+	<title>CV Presentation</title>
 </svelte:head>
 
 <Slides />
